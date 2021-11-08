@@ -1,0 +1,50 @@
+{
+    "timber": {
+        "name": "Timber",
+        "cost": 0.38
+    },
+    "lumber": {
+        "name": "Lumber",
+        "cost": 1.40
+    },
+    "linen": {
+        "name": "Linen",
+        "cost": 0.35
+    },
+    "coarseleather": {
+        "name": "Coarse Leather",
+        "cost": 0.55
+    },
+    "charcoal": {
+        "name": "Charcoal",
+        "cost": 0.24
+    },
+    "flint": {
+        "name": "Flint",
+        "cost": 0.26
+    },
+    "saltpeter": {
+        "name": "Saltpeter",
+        "cost": 0.23
+    },
+    "ironingot": {
+        "name": "Iron Ingot",
+        "cost": 0.58
+    },
+    "wyrdwoodplank": {
+        "name": "Wyrdwood Plank",
+        "cost": 2.44
+    },
+    "airmote": {
+        "name": "Air Mote",
+        "cost": 2.50
+    },
+    "soulmote": {
+        "name": "Soul Mote",
+        "cost": 1.20
+    },
+    "water": {
+        "name": "Water",
+        "cost": 0.01
+    }
+}
