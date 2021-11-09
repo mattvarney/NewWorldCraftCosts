@@ -3,7 +3,7 @@
         <table class="table table-striped table-sm">
             <thead>
             <th>Recipe</th>
-            <th>Gold Cost</th>
+            <th>Gold Cost<br /><small>incl. salvaging</small></th>
             <th>XP</th>
 {#            <th>Gold/XP</th>#}
             <th>XP/Gold</th>
