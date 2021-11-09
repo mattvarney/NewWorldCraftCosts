@@ -31,6 +31,10 @@
         "name": "Iron Ingot",
         "cost": 0.58
     },
+    "orichalcumingot": {
+        "name": "Orichalcum Ingot",
+        "cost": 19.50
+    },
     "wyrdwoodplank": {
         "name": "Wyrdwood Plank",
         "cost": 2.44

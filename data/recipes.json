@@ -109,6 +109,28 @@
             }
         ]
     },
+    "Orichalcum Arrow": {
+        "name": "Orichalcum Arrow",
+        "xp": 930,
+        "craftTable" : "workshop",
+        "craftTableTier": 5,
+        "skillRequired": 150,
+        "itemType": "resource",
+        "ingredients": [
+            {
+                "resource": "orichalcumingot",
+                "count": 1
+            },
+            {
+                "resource": "ironwoodplank",
+                "count": 2
+            },
+            {
+                "resource": "feather",
+                "count": 3
+            }
+        ]
+    },
     "Starmetal Spear": {
         "name": "Starmetal Spear",
         "xp": 1425,
