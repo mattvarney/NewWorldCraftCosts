@@ -35,6 +35,10 @@
         "name": "Wyrdwood Plank",
         "cost": 2.44
     },
+    "ironwoodplank": {
+        "name": "Ironwood Plank",
+        "cost": 4.44
+    },
     "airmote": {
         "name": "Air Mote",
         "cost": 2.50

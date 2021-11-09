@@ -65,6 +65,28 @@
             }
         ]
     },
+    "Ironwood Fishing Pole": {
+        "name": "Ironwood Fishing Pole",
+        "xp": 3100,
+        "craftTable" : "workshop",
+        "craftTableTier": 5,
+        "skillRequired": 150,
+        "itemType": "fishingpole",
+        "ingredients": [
+            {
+                "resource": "ironwoodplank",
+                "count": 15
+            },
+            {
+                "resource": "coarseleather",
+                "count": 3
+            },
+            {
+                "resource": "linen",
+                "count": 2
+            }
+        ]
+    },
     "Gunpowder": {
         "name": "Gunpowder",
         "xp": 96,
