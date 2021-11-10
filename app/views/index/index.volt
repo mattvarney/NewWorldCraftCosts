@@ -43,9 +43,20 @@
     <div class="container">
         <div class="row">
             <div id="demo">
+                <ul class="nav nav-pills">
+                    <li
+                        v-for="trade in trades"
+                        v-bind:key="trade"
+                        v-bind:trade="trade"
+                        class="nav-item"
+                    >
+                        <a v-bind:class="{ active: trade == activeTrade }" class="nav-link" @click="changeActiveTrade(trade)">[[trade]]</a>
+                    </li>
+                </ul>
+
                 <div class="float-left mr-5">
                     <recipes
-                            :recipes="recipes"
+                            :recipes="recipes[activeTrade]"
                             :resources="resources"
                     ></recipes>
                 </div>
@@ -65,15 +76,15 @@
         Vue.component("recipe", {
             template: `{{ partial("index/partials/recipe") }}`,
             props: {
-                data: Object,
+                recipe: Object,
                 name: String,
             },
             computed: {
                 cost: function () {
                     let cost = 0;
-                   for (let i = 0; i < this.data.ingredients.length; i++) {
-                       let resource = this.data.ingredients[i].resource;
-                      cost += this.$root.resources[resource].cost * this.data.ingredients[i].count;
+                   for (let i = 0; i < this.recipe.ingredients.length; i++) {
+                       let resource = this.recipe.ingredients[i].resource;
+                      cost += this.$root.resources[resource].cost * this.recipe.ingredients[i].count;
                    }
                    return +cost.toFixed(2);
                 },
@@ -82,23 +93,27 @@
                     return +totalCost.toFixed(2);
                 },
                 xpPerGold: function() {
-                    let xpPerGold =  this.data.xp / this.totalCost;
+                    let xpPerGold =  this.recipe.xp / this.totalCost;
                     return +xpPerGold.toFixed(2);
                 },
                 tooltip: function() {
                     let salvageRange = this.salvageRange;
-                    let tooltip =  "Table: " + this.capitalize(this.data.craftTable) + " Tier " + this.data.craftTableTier + "\n"
-                        + "Skill Required: " + this.data.skillRequired + "\n"
-                        + "Item Type: " + this.capitalize(this.data.itemType) + "\n";
+                    let tooltip =  "Table: " + this.capitalize(this.recipe.craftTable) + " Tier " + this.recipe.craftTableTier + "\n"
+                        + "Skill Required: " + this.recipe.skillRequired + "\n"
+                        + "Item Type: " + this.capitalize(this.recipe.itemType) + "\n";
                         + "Resource Cost: " + this.cost + " gold\n";
                     if (salvageRange.min != 0 && salvageRange.max != 0) {
-                        tooltip += "Salvages To: " + salvageRange.min + "-" + salvageRange.max + " " + this.$root.resources[this.data.ingredients[0].resource].name + "\n"
+                        tooltip += "Salvages To: " + salvageRange.min + "-" + salvageRange.max + " " + this.$root.resources[this.recipe.ingredients[0].resource].name + "\n"
                     }
-                    tooltip += "Salvage Value: " + this.salvageCost + " gold";
+                    tooltip += "Salvage Value: " + this.salvageCost + " gold\n";
+                    tooltip += "-------\n";
+                    for (let i = 0; i < this.recipe.ingredients.length; i++) {
+                        tooltip += this.$root.resources[this.recipe.ingredients[i].resource].name + " x" + this.recipe.ingredients[i].count + "\n";
+                    }
                     return tooltip;
                 },
                 salvageCost: function() {
-                    let salvageItem = this.data.ingredients[0].resource;
+                    let salvageItem = this.recipe.ingredients[0].resource;
                     let salvageItemCost = this.$root.resources[salvageItem].cost;
                     let salvageRange = this.salvageRange;
                     let salvageCost =  salvageItemCost * salvageRange.predicted;
@@ -108,17 +123,17 @@
                     let oneThroughFourTypes = ["axe", "hammer", "firestaff", "lifestaff", "fishingpole", "chest"];
                     let oneThroughThreeTypes = ["pants", "spear", "bow", "musket", "pickaxe", "woodaxe"];
                     let oneThroughTwoTypes = ["rapier", "sword", "shield", "head", "gloves", "boots", "hatchet", "icegauntlet", "sickle", "skinningknife"];
-                    let noSalvage = ["resource", "consumable"];
-                    if (oneThroughFourTypes.includes(this.data.itemType)) {
+                    let noSalvage = ["resource", "consumable", "furniture"];
+                    if (oneThroughFourTypes.includes(this.recipe.itemType)) {
                         return {"min": 1, "max": 4, "predicted": 2.13};   //213 when crafting 100
                     }
-                    if (oneThroughThreeTypes.includes(this.data.itemType)) {
+                    if (oneThroughThreeTypes.includes(this.recipe.itemType)) {
                         return {"min": 1, "max": 3, "predicted": 1.40};
                     }
-                    if (oneThroughTwoTypes.includes(this.data.itemType)) {
+                    if (oneThroughTwoTypes.includes(this.recipe.itemType)) {
                         return {"min": 1, "max": 2, "predicted": 1.25};
                     }
-                    if (noSalvage.includes(this.data.itemType)) {
+                    if (noSalvage.includes(this.recipe.itemType)) {
                         return {"min": 0, "max": 0, "predicted": 0};
                     }
                 }
@@ -133,10 +148,12 @@
         Vue.component("recipes", {
             template: `{{ partial("index/partials/recipes") }}`,
             props: {
-                recipes: Object,
+                recipes: Array,
             },
             computed: {
-
+                sortedRecipes() {
+                    return this.recipes.sort((a, b) => { return b.totalCost - a.totalCost;});
+                }
             },
             methods: {
                 updateResourceCost: function (data) {
@@ -184,6 +201,8 @@
                 },
                 recipes: {{ recipes }},
                 resources: {{ resources }},
+                trades: ["Engineering", "Furnishing", "Armorsmithing", "Weaponsmithing"],
+                activeTrade: "Engineering"
             },
             mounted: function () { },
             computed: {
@@ -192,7 +211,11 @@
             methods: {
                 updateResourceCost: function (data) {
                     this.resources[data.resource].cost = data.cost;
+                },
+                changeActiveTrade: function (trade) {
+                    this.activeTrade = trade;
                 }
+
             },
         })
 

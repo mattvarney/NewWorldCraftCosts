@@ -1,200 +1,332 @@
 {
-    "Treated Wood Bow": {
-        "name": "Treated Wood Bow",
-        "xp": 204,
-        "craftTable" : "workshop",
-        "craftTableTier": 2,
-        "skillRequired": 0,
-        "itemType": "bow",
-        "ingredients": [
-            {
-                "resource": "timber",
-                "count": 12
-            },
-            {
-                "resource": "coarseleather",
-                "count": 3
-            },
-            {
-                "resource": "linen",
-                "count": 2
-            }
-        ]
-    },
-    "Laquered Wood Bow": {
-        "name": "Laquered Wood Bow",
-        "xp": 540,
-        "craftTable" : "workshop",
-        "craftTableTier": 3,
-        "skillRequired": 50,
-        "itemType": "bow",
-        "ingredients": [
-            {
-                "resource": "lumber",
-                "count": 13
-            },
-            {
-                "resource": "coarseleather",
-                "count": 3
-            },
-            {
-                "resource": "linen",
-                "count": 2
-            }
-        ]
-    },
-    "Wyrdwood Fishing Pole": {
-        "name": "Wyrdwood Fishing Pole",
-        "xp": 1425,
-        "craftTable" : "workshop",
-        "craftTableTier": 4,
-        "skillRequired": 100,
-        "itemType": "fishingpole",
-        "ingredients": [
-            {
-                "resource": "wyrdwoodplank",
-                "count": 14
-            },
-            {
-                "resource": "coarseleather",
-                "count": 3
-            },
-            {
-                "resource": "linen",
-                "count": 2
-            }
-        ]
-    },
-    "Ironwood Fishing Pole": {
-        "name": "Ironwood Fishing Pole",
-        "xp": 3100,
-        "craftTable" : "workshop",
-        "craftTableTier": 5,
-        "skillRequired": 150,
-        "itemType": "fishingpole",
-        "ingredients": [
-            {
-                "resource": "ironwoodplank",
-                "count": 15
-            },
-            {
-                "resource": "coarseleather",
-                "count": 3
-            },
-            {
-                "resource": "linen",
-                "count": 2
-            }
-        ]
-    },
-    "Gunpowder": {
-        "name": "Gunpowder",
-        "xp": 96,
-        "craftTable" : "workshop",
-        "craftTableTier": 2,
-        "skillRequired": 0,
-        "itemType": "resource",
-        "ingredients": [
-            {
-                "resource": "charcoal",
-                "count": 5
-            },
-            {
-                "resource": "flint",
-                "count": 2
-            },
-            {
-                "resource": "saltpeter",
-                "count": 1
-            }
-        ]
-    },
-    "Orichalcum Arrow": {
-        "name": "Orichalcum Arrow",
-        "xp": 930,
-        "craftTable" : "workshop",
-        "craftTableTier": 5,
-        "skillRequired": 150,
-        "itemType": "resource",
-        "ingredients": [
-            {
-                "resource": "orichalcumingot",
-                "count": 1
-            },
-            {
-                "resource": "ironwoodplank",
-                "count": 2
-            },
-            {
-                "resource": "feather",
-                "count": 3
-            }
-        ]
-    },
-    "Starmetal Spear": {
-        "name": "Starmetal Spear",
-        "xp": 1425,
-        "craftTable" : "forge",
-        "craftTableTier": 4,
-        "skillRequired": 100,
-        "itemType": "spear",
-        "ingredients": [
-            {
-                "resource": "wyrdwoodplank",
-                "count": 12
-            },
-            {
-                "resource": "ironingot",
-                "count": 5
-            },
-            {
-                "resource": "coarseleather",
-                "count": 2
-            }
-        ]
-    },
-    "Steel Spear": {
-        "name": "Steel Spear",
-        "xp": 540,
-        "craftTable" : "forge",
-        "craftTableTier": 3,
-        "skillRequired": 50,
-        "itemType": "spear",
-        "ingredients": [
-            {
-                "resource": "lumber",
-                "count": 11
-            },
-            {
-                "resource": "ironingot",
-                "count": 5
-            },
-            {
-                "resource": "coarseleather",
-                "count": 2
-            }
-        ]
-    },
-    "Weak Prof. Booster": {
-        "name": "Weak Prof. Booster",
-        "xp": 36,
-        "craftTable" : "workshop",
-        "craftTableTier": 2,
-        "skillRequired": 20,
-        "itemType": "consumable",
-        "ingredients": [
-            {
-                "resource": "airmote",
-                "count": 1
-            },
-            {
-                "resource": "soulmote",
-                "count": 1
-            },
-            {
-                "resource": "water",
-                "count": 1
-            }
-        ]
-    }
+    "Engineering": [
+        {
+            "name": "Treated Wood Bow",
+            "xp": 204,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "bow",
+            "ingredients": [
+                {
+                    "resource": "timber",
+                    "count": 12
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 3
+                },
+                {
+                    "resource": "linen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Laquered Wood Bow",
+            "xp": 540,
+            "craftTable": "workshop",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "bow",
+            "ingredients": [
+                {
+                    "resource": "lumber",
+                    "count": 13
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 3
+                },
+                {
+                    "resource": "linen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Wyrdwood Fishing Pole",
+            "xp": 1425,
+            "craftTable": "workshop",
+            "craftTableTier": 4,
+            "skillRequired": 100,
+            "itemType": "fishingpole",
+            "ingredients": [
+                {
+                    "resource": "wyrdwoodplank",
+                    "count": 14
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 3
+                },
+                {
+                    "resource": "linen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Ironwood Fishing Pole",
+            "xp": 3100,
+            "craftTable": "workshop",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "fishingpole",
+            "ingredients": [
+                {
+                    "resource": "ironwoodplank",
+                    "count": 15
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 3
+                },
+                {
+                    "resource": "linen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Gunpowder",
+            "xp": 96,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "charcoal",
+                    "count": 5
+                },
+                {
+                    "resource": "flint",
+                    "count": 2
+                },
+                {
+                    "resource": "saltpeter",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Orichalcum Arrow",
+            "xp": 930,
+            "craftTable": "workshop",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "orichalcumingot",
+                    "count": 1
+                },
+                {
+                    "resource": "ironwoodplank",
+                    "count": 2
+                },
+                {
+                    "resource": "feather",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "Starmetal Spear",
+            "xp": 1425,
+            "craftTable": "forge",
+            "craftTableTier": 4,
+            "skillRequired": 100,
+            "itemType": "spear",
+            "ingredients": [
+                {
+                    "resource": "wyrdwoodplank",
+                    "count": 12
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 5
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Steel Spear",
+            "xp": 540,
+            "craftTable": "forge",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "spear",
+            "ingredients": [
+                {
+                    "resource": "lumber",
+                    "count": 11
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 5
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Weak Prof. Booster",
+            "xp": 36,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 20,
+            "itemType": "consumable",
+            "ingredients": [
+                {
+                    "resource": "airmote",
+                    "count": 1
+                },
+                {
+                    "resource": "soulmote",
+                    "count": 1
+                },
+                {
+                    "resource": "water",
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "Furnishing": [
+        {
+            "name": "Ash Wall Shelf",
+            "xp": 126,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "furniture",
+            "ingredients": [
+                {
+                    "resource": "timber",
+                    "count": 15
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 5
+                },
+                {
+                    "resource": "ashstain",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Round Sunny Rug",
+            "xp": 150,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "furniture",
+            "ingredients": [
+                {
+                    "resource": "linen",
+                    "count": 15
+                },
+                {
+                    "resource": "crossweave",
+                    "count": 5
+                },
+                {
+                    "resource": "fibers",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Old Placesetting",
+            "xp": 96,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "furniture",
+            "ingredients": [
+                {
+                    "resource": "timber",
+                    "count": 10
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 5
+                },
+                {
+                    "resource": "weaksolvent",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Ash Full Bed",
+            "xp": 282,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "furniture",
+            "ingredients": [
+                {
+                    "resource": "timber",
+                    "count": 30
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 15
+                },
+                {
+                    "resource": "ashstain",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Tree Stump Side Table",
+            "xp": 1128,
+            "craftTable": "workshop",
+            "craftTableTier": 3,
+            "skillRequired": 55,
+            "itemType": "furniture",
+            "ingredients": [
+                {
+                    "resource": "lumber",
+                    "count": 35
+                },
+                {
+                    "resource": "weaksolvent",
+                    "count": 10
+                },
+                {
+                    "resource": "maplestain",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Ash Stain",
+            "xp": 14,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "charcoal",
+                    "count": 10
+                },
+                {
+                    "resource": "weaksolvent",
+                    "count": 4
+                }
+            ]
+        }
+    ]
 }

@@ -10,10 +10,9 @@
             </thead>
             <tbody>
                 <recipe
-                        v-for="data, name in recipes"
-                        v-bind:key="name"
-                        v-bind:data="data"
-                        v-bind:name="name"
+                        v-for="recipe in recipes"
+                        v-bind:key="recipe.name"
+                        v-bind:recipe="recipe"
                 >
                 </recipe>
             </tbody>
