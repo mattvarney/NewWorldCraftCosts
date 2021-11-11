@@ -327,6 +327,24 @@
                     "count": 4
                 }
             ]
+        },
+        {
+            "name": "Maple Stain",
+            "xp": 84,
+            "craftTable": "workshop",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "weaksolvent",
+                    "count": 10
+                },
+                {
+                    "resource": "oil",
+                    "count": 4
+                }
+            ]
         }
     ]
 }

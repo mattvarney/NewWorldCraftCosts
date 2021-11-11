@@ -62,7 +62,7 @@
                 </div>
                 <div class="float-right ml-5">
                     <resources
-                            :resources="resources"
+                            :resources="resourcesToShow"
                             @update-resource-cost="updateResourceCost($event)"
                     ></resources>
                 </div>
@@ -151,9 +151,10 @@
                 recipes: Array,
             },
             computed: {
-                sortedRecipes() {
-                    return this.recipes.sort((a, b) => { return b.totalCost - a.totalCost;});
-                }
+
+                // sortedRecipes() {
+                //     return this.recipes.sort((a, b) => { return b.totalCost - a.totalCost;});
+                // }
             },
             methods: {
                 updateResourceCost: function (data) {
@@ -206,7 +207,16 @@
             },
             mounted: function () { },
             computed: {
-
+                resourcesToShow: function () {
+                    let resourcesToShow = {};
+                    let activeTradeRecipes = this.recipes[this.activeTrade];
+                    for (const key in activeTradeRecipes) {
+                        for (let i = 0; i < activeTradeRecipes[key].ingredients.length; i++) {
+                            resourcesToShow[activeTradeRecipes[key].ingredients[i].resource] = this.$root.resources[activeTradeRecipes[key].ingredients[i].resource];
+                        }
+                    }
+                    return resourcesToShow;
+                },
             },
             methods: {
                 updateResourceCost: function (data) {

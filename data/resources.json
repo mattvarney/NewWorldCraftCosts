@@ -27,6 +27,10 @@
         "name": "Maple Stain",
         "cost": 3
     },
+    "oil": {
+        "name": "Oil",
+        "cost": 1.00
+    },
     "coarseleather": {
         "name": "Coarse Leather",
         "cost": 0.60
