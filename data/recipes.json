@@ -111,6 +111,28 @@
             ]
         },
         {
+            "name": "Iron Arrow",
+            "xp": 108,
+            "craftTable": "workshop",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 4
+                },
+                {
+                    "resource": "timber",
+                    "count": 2
+                },
+                {
+                    "resource": "feather",
+                    "count": 3
+                }
+            ]
+        },
+        {
             "name": "Orichalcum Arrow",
             "xp": 930,
             "craftTable": "workshop",
