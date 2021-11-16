@@ -1,4 +1,8 @@
 {
+    "greenwood": {
+        "name": "Green Wood",
+        "cost": 0.07
+    },
     "timber": {
         "name": "Timber",
         "cost": 0.35
@@ -14,6 +18,18 @@
     "linen": {
         "name": "Linen",
         "cost": 0.31
+    },
+    "sateen": {
+        "name": "Sateen",
+        "cost": 1.20
+    },
+    "silk": {
+        "name": "Silk",
+        "cost": 3.4
+    },
+    "infusedsilk": {
+        "name": "Infused Silk",
+        "cost": 5.85
     },
     "crossweave": {
         "name": "Crossweave",
@@ -31,9 +47,25 @@
         "name": "Oil",
         "cost": 1.00
     },
+    "rawhide": {
+        "name": "Rawhide",
+        "cost": 0.08
+    },
     "coarseleather": {
         "name": "Coarse Leather",
         "cost": 0.60
+    },
+    "ruggedleather": {
+        "name": "Rugged Leather",
+        "cost": 2.00
+    },
+    "layeredleather": {
+        "name": "Layered Leather",
+        "cost": 3.70
+    },
+    "fur": {
+        "name": "Fur",
+        "cost": 2.00
     },
     "charcoal": {
         "name": "Charcoal",
@@ -47,9 +79,25 @@
         "name": "Saltpeter",
         "cost": 0.16
     },
+    "ironore": {
+        "name": "Iron Ore",
+        "cost": 0.19
+    },
+    "faeiron": {
+        "name": "Fae Ore",
+        "cost": 0.40
+    },
     "ironingot": {
         "name": "Iron Ingot",
         "cost": 0.50
+    },
+    "steelingot": {
+        "name": "Steel Ingot",
+        "cost": 2.00
+    },
+    "silveringot": {
+        "name": "Silver Ingot",
+        "cost": 0.30
     },
     "orichalcumingot": {
         "name": "Orichalcum Ingot",
@@ -63,6 +111,10 @@
         "name": "Ironwood Plank",
         "cost": 4.44
     },
+    "stoneblock": {
+        "name": "Stone Block",
+        "cost": 0.10
+    },
     "airmote": {
         "name": "Air Mote",
         "cost": 2.50
@@ -70,6 +122,14 @@
     "soulmote": {
         "name": "Soul Mote",
         "cost": 1.20
+    },
+    "deathmote": {
+        "name": "Death Mote",
+        "cost": 0.75
+    },
+    "firemote": {
+        "name": "Fire Mote",
+        "cost": 0.75
     },
     "water": {
         "name": "Water",

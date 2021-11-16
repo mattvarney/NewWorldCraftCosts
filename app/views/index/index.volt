@@ -120,7 +120,7 @@
                     return +salvageCost.toFixed(2);
                 },
                 salvageRange: function() {
-                    let oneThroughFourTypes = ["axe", "hammer", "firestaff", "lifestaff", "fishingpole", "chest"];
+                    let oneThroughFourTypes = ["greataxe", "hammer", "firestaff", "lifestaff", "fishingpole", "chest"];
                     let oneThroughThreeTypes = ["pants", "spear", "bow", "musket", "pickaxe", "woodaxe"];
                     let oneThroughTwoTypes = ["rapier", "sword", "shield", "head", "gloves", "boots", "hatchet", "icegauntlet", "sickle", "skinningknife"];
                     let noSalvage = ["resource", "consumable", "furniture"];
@@ -202,7 +202,7 @@
                 },
                 recipes: {{ recipes }},
                 resources: {{ resources }},
-                trades: ["Engineering", "Furnishing", "Armorsmithing", "Weaponsmithing"],
+                trades: ["Engineering", "Furnishing", "Armoring", "Weaponsmithing"],
                 activeTrade: "Engineering"
             },
             mounted: function () { },

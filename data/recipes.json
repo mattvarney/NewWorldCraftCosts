@@ -199,6 +199,546 @@
             ]
         }
     ],
+    "Weaponsmithing" : [
+        {
+            "name": "Impaling Crude Iron Armaments (TB)",
+            "xp": 372,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 8
+                },
+                {
+                    "resource": "greenwood",
+                    "count": 14
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "name": "Plundering Crude Iron Armaments (TB)",
+            "xp": 372,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 10
+                },
+                {
+                    "resource": "greenwood",
+                    "count": 10
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Gashing Crude Iron Armaments (TB)",
+            "xp": 1092,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 30
+                },
+                {
+                    "resource": "greenwood",
+                    "count": 30
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 30
+                }
+            ]
+        },
+        {
+            "name": "Crushing Crude Iron Armaments (TB)",
+            "xp": 612,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 20
+                },
+                {
+                    "resource": "greenwood",
+                    "count": 15
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "name": "Gashing Iron Armaments (TB)",
+            "xp": 1230,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 50,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 20
+                },
+                {
+                    "resource": "timber",
+                    "count": 15
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Plundering Iron Armaments (TB)",
+            "xp": 630,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 50,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 6
+                },
+                {
+                    "resource": "timber",
+                    "count": 7
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "name": "Iron Great Axe",
+            "xp": 204,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "greataxe",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 12
+                },
+                {
+                    "resource": "timber",
+                    "count": 3
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Weak Honing Stone",
+            "xp": 36,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 20,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "stoneblock",
+                    "count": 1
+                },
+                {
+                    "resource": "deathmote",
+                    "count": 1
+                },
+                {
+                    "resource": "firemote",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Earthen Smasher",
+            "xp": 576,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 26,
+            "itemType": "greataxe",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 20
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 15
+                },
+                {
+                    "resource": "timber",
+                    "count": 5
+                },
+                {
+                    "resource": "silveringot",
+                    "count": 4
+                },
+                {
+                    "resource": "faeiron",
+                    "count": 4
+                }
+            ]
+        }
+    ],
+    "Armoring" : [
+        {
+            "name": "Unyielding Crude Iron Armor (TB)",
+            "xp": 612,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 20
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 10
+                },
+                {
+                    "resource": "fibers",
+                    "count": 20
+                }
+            ]
+        },
+        {
+            "name": "Toughened Crude Iron Armor (TB)",
+            "xp": 372,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironore",
+                    "count": 9
+                },
+                {
+                    "resource": "rawhide",
+                    "count": 9
+                },
+                {
+                    "resource": "fibers",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "name": "Toughened Iron Armor (TB)",
+            "xp": 630,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 50,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 10
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 5
+                },
+                {
+                    "resource": "linen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Hardened Iron Armor (TB)",
+            "xp": 780,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 50,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 10
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 5
+                },
+                {
+                    "resource": "linen",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Unyielding Steel Armor (TB)",
+            "xp": 1950,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 100,
+            "itemType": "resource",
+            "ingredients": [
+                {
+                    "resource": "steelingot",
+                    "count": 8
+                },
+                {
+                    "resource": "ruggedleather",
+                    "count": 8
+                },
+                {
+                    "resource": "sateen",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "name": "Linen Handwraps",
+            "xp": 108,
+            "craftTable": "outfitting",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "gloves",
+            "ingredients": [
+                {
+                    "resource": "linen",
+                    "count": 4
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Coarse Leather Shirt",
+            "xp": 420,
+            "craftTable": "outfitting",
+            "craftTableTier": 2,
+            "skillRequired": 0,
+            "itemType": "chest",
+            "ingredients": [
+                {
+                    "resource": "coarseleather",
+                    "count": 22
+                },
+                {
+                    "resource": "linen",
+                    "count": 12
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Rugged Fur Pants",
+            "xp": 540,
+            "craftTable": "outfitting",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "pants",
+            "ingredients": [
+                {
+                    "resource": "fur",
+                    "count": 12
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Iron Round Shield",
+            "xp": 120,
+            "craftTable": "forge",
+            "craftTableTier": 2,
+            "skillRequired": 50,
+            "itemType": "shield",
+            "ingredients": [
+                {
+                    "resource": "ironingot",
+                    "count": 7
+                },
+                {
+                    "resource": "timber",
+                    "count": 2
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Sateen Pants",
+            "xp": 540,
+            "craftTable": "outfitting",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "pants",
+            "ingredients": [
+                {
+                    "resource": "sateen",
+                    "count": 10
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 6
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Rugged Leather Shirt",
+            "xp": 1050,
+            "craftTable": "outfitting",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "pants",
+            "ingredients": [
+                {
+                    "resource": "ruggedleather",
+                    "count": 22
+                },
+                {
+                    "resource": "linen",
+                    "count": 12
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Rugged Leather Gloves",
+            "xp": 270,
+            "craftTable": "outfitting",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "gloves",
+            "ingredients": [
+                {
+                    "resource": "ruggedleather",
+                    "count": 4
+                },
+                {
+                    "resource": "linen",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Layered Leather Pants",
+            "xp": 1350,
+            "craftTable": "outfitting",
+            "craftTableTier": 4,
+            "skillRequired": 100,
+            "itemType": "pants",
+            "ingredients": [
+                {
+                    "resource": "layeredleather",
+                    "count": 10
+                },
+                {
+                    "resource": "linen",
+                    "count": 6
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Silk Gloves",
+            "xp": 675,
+            "craftTable": "outfitting",
+            "craftTableTier": 4,
+            "skillRequired": 100,
+            "itemType": "gloves",
+            "ingredients": [
+                {
+                    "resource": "silk",
+                    "count": 4
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Infused Silk Gloves",
+            "xp": 1395,
+            "craftTable": "outfitting",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "gloves",
+            "ingredients": [
+                {
+                    "resource": "infusedsilk",
+                    "count": 4
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        }
+    ],
     "Furnishing": [
         {
             "name": "Ash Wall Shelf",
