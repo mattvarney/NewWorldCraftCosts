@@ -7,6 +7,7 @@
             <th>XP</th>
 {#            <th>Gold/XP</th>#}
             <th>XP/Gold</th>
+            <th>Gold for<br />1000 XP</th>
             </thead>
             <tbody>
                 <recipe

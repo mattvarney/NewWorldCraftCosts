@@ -5,4 +5,5 @@
             <td>[[ recipe.xp ]]</td>
 {#            <td>[[ cost/ data.xp ]]</td>#}
             <td>[[ xpPerGold ]]</td>
+            <td>[[ goldPerThousandXP ]]</td>
         </tr>

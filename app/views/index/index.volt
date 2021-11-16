@@ -96,6 +96,11 @@
                     let xpPerGold =  this.recipe.xp / this.totalCost;
                     return +xpPerGold.toFixed(2);
                 },
+                goldPerThousandXP: function() {
+                    let requiredCount = 1000/this.recipe.xp;
+                    let goldPerThousandXP =  requiredCount * this.totalCost;
+                    return +goldPerThousandXP.toFixed(2);
+                },
                 tooltip: function() {
                     let salvageRange = this.salvageRange;
                     let tooltip =  "Table: " + this.capitalize(this.recipe.craftTable) + " Tier " + this.recipe.craftTableTier + "\n"
