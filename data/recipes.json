@@ -247,7 +247,8 @@
         {
             "name": "Plundering Crude Iron Armaments (TB)",
             "xp": 372,
-            "craftTable": "forge",
+            "craftTable": "
+",
             "craftTableTier": 2,
             "skillRequired": 0,
             "itemType": "resource",
@@ -586,7 +587,7 @@
         },
         {
             "name": "Rugged Fur Pants",
-            "xp": 540,
+            "xp": 810,
             "craftTable": "outfitting",
             "craftTableTier": 3,
             "skillRequired": 50,
@@ -630,7 +631,7 @@
         },
         {
             "name": "Sateen Pants",
-            "xp": 540,
+            "xp": 810,
             "craftTable": "outfitting",
             "craftTableTier": 3,
             "skillRequired": 50,
@@ -652,7 +653,7 @@
         },
         {
             "name": "Rugged Leather Shirt",
-            "xp": 1050,
+            "xp": 1575,
             "craftTable": "outfitting",
             "craftTableTier": 3,
             "skillRequired": 50,
@@ -674,7 +675,7 @@
         },
         {
             "name": "Rugged Leather Gloves",
-            "xp": 270,
+            "xp": 405,
             "craftTable": "outfitting",
             "craftTableTier": 3,
             "skillRequired": 50,
@@ -696,7 +697,7 @@
         },
         {
             "name": "Layered Leather Pants",
-            "xp": 1350,
+            "xp": 3024,
             "craftTable": "outfitting",
             "craftTableTier": 4,
             "skillRequired": 100,
@@ -718,7 +719,7 @@
         },
         {
             "name": "Silk Gloves",
-            "xp": 675,
+            "xp": 1512,
             "craftTable": "outfitting",
             "craftTableTier": 4,
             "skillRequired": 100,
@@ -740,11 +741,55 @@
         },
         {
             "name": "Infused Silk Gloves",
-            "xp": 1395,
+            "xp": 4536,
             "craftTable": "outfitting",
             "craftTableTier": 5,
             "skillRequired": 150,
             "itemType": "gloves",
+            "ingredients": [
+                {
+                    "resource": "infusedsilk",
+                    "count": 4
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Infused Silk Robe Pants",
+            "xp": 9072,
+            "craftTable": "outfitting",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "pants",
+            "ingredients": [
+                {
+                    "resource": "infusedsilk",
+                    "count": 4
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 4
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Shadewalker Mask",
+            "xp": 8568,
+            "craftTable": "outfitting",
+            "craftTableTier": 5,
+            "skillRequired": 180,
+            "itemType": "head",
             "ingredients": [
                 {
                     "resource": "infusedsilk",
