@@ -803,6 +803,28 @@
                     "count": 1
                 }
             ]
+        },
+        {
+            "name": "Infused Silk Shirt",
+            "xp": 17640,
+            "craftTable": "outfitting",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "chest",
+            "ingredients": [
+                {
+                    "resource": "infusedsilk",
+                    "count": 22
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 12
+                },
+                {
+                    "resource": "ironingot",
+                    "count": 1
+                }
+            ]
         }
     ],
     "Furnishing": [
