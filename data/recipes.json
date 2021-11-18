@@ -427,6 +427,94 @@
                     "count": 4
                 }
             ]
+        },
+        {
+            "name": "Steel Kite Shield",
+            "xp": 540,
+            "craftTable": "forge",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "shield",
+            "ingredients": [
+                {
+                    "resource": "steelingot",
+                    "count": 9
+                },
+                {
+                    "resource": "timber",
+                    "count": 2
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Steel War Hammer",
+            "xp": 810,
+            "craftTable": "forge",
+            "craftTableTier": 3,
+            "skillRequired": 50,
+            "itemType": "hammer",
+            "ingredients": [
+                {
+                    "resource": "steelingot",
+                    "count": 13
+                },
+                {
+                    "resource": "timber",
+                    "count": 3
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Starmetal Great Axe",
+            "xp": 3192,
+            "craftTable": "forge",
+            "craftTableTier": 4,
+            "skillRequired": 100,
+            "itemType": "greataxe",
+            "ingredients": [
+                {
+                    "resource": "starmetalingot",
+                    "count": 14
+                },
+                {
+                    "resource": "timber",
+                    "count": 3
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Orichalcum Great Axe",
+            "xp": 10080,
+            "craftTable": "forge",
+            "craftTableTier": 5,
+            "skillRequired": 150,
+            "itemType": "greataxe",
+            "ingredients": [
+                {
+                    "resource": "orichalcumingot",
+                    "count": 15
+                },
+                {
+                    "resource": "timber",
+                    "count": 3
+                },
+                {
+                    "resource": "coarseleather",
+                    "count": 2
+                }
+            ]
         }
     ],
     "Armoring" : [
