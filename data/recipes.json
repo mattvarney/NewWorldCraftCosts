@@ -247,8 +247,7 @@
         {
             "name": "Plundering Crude Iron Armaments (TB)",
             "xp": 372,
-            "craftTable": "
-",
+            "craftTable": "forge",
             "craftTableTier": 2,
             "skillRequired": 0,
             "itemType": "resource",
