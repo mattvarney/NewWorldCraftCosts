@@ -5,9 +5,8 @@
             <th>Recipe</th>
             <th>Gold Cost<br /><small>incl. salvaging</small></th>
             <th>XP</th>
-{#            <th>Gold/XP</th>#}
-            <th>XP/Gold</th>
             <th>Gold for<br />1000 XP</th>
+            <th>XP/Gold</th>
             </thead>
             <tbody>
                 <recipe
