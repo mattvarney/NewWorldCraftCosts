@@ -24,7 +24,7 @@
         },
         {
             "name": "Laquered Wood Bow",
-            "xp": 540,
+            "xp": 810,
             "craftTable": "workshop",
             "craftTableTier": 3,
             "skillRequired": 50,
@@ -46,7 +46,7 @@
         },
         {
             "name": "Wyrdwood Fishing Pole",
-            "xp": 1425,
+            "xp": 3192,
             "craftTable": "workshop",
             "craftTableTier": 4,
             "skillRequired": 100,
@@ -68,7 +68,7 @@
         },
         {
             "name": "Ironwood Fishing Pole",
-            "xp": 3100,
+            "xp": 10080,
             "craftTable": "workshop",
             "craftTableTier": 5,
             "skillRequired": 150,
@@ -134,7 +134,7 @@
         },
         {
             "name": "Orichalcum Arrow",
-            "xp": 930,
+            "xp": 3024,
             "craftTable": "workshop",
             "craftTableTier": 5,
             "skillRequired": 150,
@@ -852,7 +852,7 @@
         },
         {
             "name": "Tree Stump Side Table",
-            "xp": 1128,
+            "xp": 99999,
             "craftTable": "workshop",
             "craftTableTier": 3,
             "skillRequired": 55,
